@@ -1,0 +1,85 @@
+@charset "utf-8"
+#page{
+    height: 100vh;
+}
+
+#header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+img{ width:100px;
+    height: 50px;
+    margin-left : 40px;
+    margin-top: 15px;}
+   
+#menu{
+    display: flex;
+   
+ }
+#menu,li{
+    margin: 10px; 
+    justify-content: end;
+    list-style: none;
+    color: white;
+    line-height: 45px;
+    font-weight: bolder;
+}
+#menu a{text-decoration: none;}
+
+#section{
+    background-color: pink;
+    height: 550px;
+}
+
+#main{
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+}
+
+h1{font-size: 60px;
+    margin: 0 auto;}
+h2{font-weight: normal;
+    font-size: 32;}
+.google_link{
+    width: 150px;
+    height: 60px;
+    margin: 0;
+}
+.apple_link{
+    width: 140px;
+    height: 42px;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+
+h3{font-weight: normal;
+    font-size: 12px;}
+
+.box1{width:640px; 
+    margin-top: 20px;
+    display: inline-block;}
+    
+
+#footer{
+    height: 595px;
+    background-color: black;
+    padding: 50px;
+    display: flex;
+  
+    }
+#bottom_menu{display: flex;
+    flex-direction: row;
+    }
+dd{
+    color:white;
+}
+dt{
+    color:gray;
+}
+#sns.i{
+    color:white;
+}

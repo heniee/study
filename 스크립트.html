@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><span id="num1">83.25</span></div>
+    <div><span id="num2"></span></div>
+    <div><span id="num3">35</span></div>
+    <div><span id="num4"></span></div>
+    <script>
+        let 제곱미터입력 = document.querySelector('#num1').innerHTML;
+        let 미터 = parseInt(제곱미터입력);
+        let result = 미터 /3.3;
+        document.querySelector('#num2').innerHTML = result
+
+        let 섭씨입력 = document.querySelector('#num3').innerHTML;
+        let 화씨 = parseInt(섭씨입력)
+        let result2 = 화씨 *9/5 +32;
+        document.querySelector('#num4').innerHTML = result2
+    </script>
+
+</body>
+</html>
